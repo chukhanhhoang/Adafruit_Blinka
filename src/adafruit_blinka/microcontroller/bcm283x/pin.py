@@ -156,5 +156,9 @@ uartPorts = ((1, TXD, RXD),)
 i2cPorts = (
     (1, SCL, SDA),
     (0, D1, D0),  # both pi 1 and pi 2 i2c ports!
+    (3, D5, D4),
+    (4, D9, D8),
+    (5, D13, D12),
+    (6, D23, D22),
     (10, D45, D44),  # internal i2c bus for the CM4
 )
